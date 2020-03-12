@@ -1,0 +1,11 @@
+max=0;
+for i in {1..500}
+do
+	ARG=`ruby -e "puts (1..100).to_a.shuffle.join(' ')"`;
+	tmp=$(./push_swap $ARG | wc -l);
+	if ((tmp > max))
+	then
+		max=$tmp;
+	fi
+done
+echo "Worst case is $max";

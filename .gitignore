@@ -1,0 +1,12 @@
+libft/libft.a
+libft/obj
+push_swap
+checker
+obj
+*.swp*
+a.out
+tags
+vgcore*
+.sym_logs
+checker.infected
+push_swap.infected
