@@ -6,7 +6,7 @@
 /*   By: abosch <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/13 17:16:08 by abosch            #+#    #+#             */
-/*   Updated: 2020/03/05 13:27:28 by abosch           ###   ########.fr       */
+/*   Updated: 2020/05/05 19:12:31 by abosch           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,6 @@ int		main(int ac, char **av)
 		stack_b = NULL;
 		choose_sort(stacklen(stack_a), &stack_a, &stack_b);
 	}
-	destroy_stack(stack_a);
+	destroy_stacks(stack_a, stack_b);
 	return (0);
 }
