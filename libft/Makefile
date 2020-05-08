@@ -6,7 +6,7 @@
 #    By: abosch <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/08 13:36:55 by abosch            #+#    #+#              #
-#    Updated: 2020/03/10 12:32:22 by abosch           ###   ########.fr        #
+#    Updated: 2020/05/05 19:47:21 by abosch           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -69,7 +69,7 @@ LIB_FLAG := -I$(INC_PATH)
 
 OPTI_FLAG = -O3
 
-CFLAGS = -Werror -Wextra -Wall
+CFLAGS = -Werror=unused-value -Wextra -Wall
 #----------------------#
 
 NAME = libft.a
